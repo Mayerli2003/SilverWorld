@@ -116,115 +116,114 @@ namespace practica3SilverWorld
                                                 case "1":
                                                     Console.WriteLine("Precio: $" + alcohol.margarita());
                                                     alcohol.compraMargarita();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
 
                                                     break;
 
                                                 case "2":
                                                     Console.WriteLine("Precio: $" + alcohol.mojito());
                                                     alcohol.compraMojito();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
 
                                                     break;
                                                 case "3":
                                                     Console.WriteLine("Precio: $" + alcohol.manhattan());
                                                     alcohol.compraManhattan();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "4":
                                                     Console.WriteLine("Precio: $" + alcohol.pColada());
                                                     alcohol.compraPColada();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "5":
                                                     Console.WriteLine("Precio: $" + alcohol.daiquiri());
                                                     alcohol.compraDaiquiri();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "6":
-                                                    Console.WriteLine("Precio: $" + alcohol.longIsland());
-                                                    alcohol.compraLongIsland();
-                                                    Console.WriteLine();
+                                                    Console.WriteLine("Precio: $" + alcohol.longIsland());;
+                                                    Console.ReadLine();
                                                     break;
                                                 case "7":
                                                     Console.WriteLine("Precio: $" + alcohol.bloodyMary());
                                                     alcohol.compraBloodyMary();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "8":
                                                     Console.WriteLine("Precio: $" + alcohol.maiTai());
                                                     alcohol.compraMaiTai();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "9":
                                                     Console.WriteLine("Precio: $" + alcohol.sidecar());
                                                     alcohol.compraSidecar();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "10":
                                                     Console.WriteLine("Precio: $" + licua.tropical());
                                                     licua.compraTropical();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "11":
                                                     Console.WriteLine("Precio: $" + licua.invernal());
                                                     licua.compraInvernal();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "12":
                                                     Console.WriteLine("Precio: $" + licua.clasico());
                                                     licua.compraClasico();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "13":
                                                     Console.WriteLine("Precio: $" + licua.chocomilkClasico());
                                                     licua.compraChocomilkClasico();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "14":
                                                     Console.WriteLine("Precio: $" + licua.completo());
                                                     licua.compraCompleto();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "15":
                                                     Console.WriteLine("Precio: $" + infuciones.teBlanco());
                                                     infuciones.compraTeBlanco();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "16":
                                                     Console.WriteLine("Precio: $" + infuciones.teRojo());
                                                     infuciones.compraTeRojo();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "17":
                                                     Console.WriteLine("Precio: $" + infuciones.teNegroFresa());
                                                     infuciones.compraTeNegroFresa();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "18":
                                                     Console.WriteLine("Precio: $" + infuciones.manzanilla());
                                                     infuciones.compraManzanilla();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "19":
                                                     Console.WriteLine("Precio: $" + infuciones.matchaLatte());
                                                     infuciones.compraMatchaLatte();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "20":
                                                     Console.WriteLine("Precio: $" + infuciones.chocolateCaliente());
                                                     infuciones.compraChocolateCaliente();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "21":
                                                     Console.WriteLine("Precio: $" + infuciones.cafeNegro());
                                                     infuciones.compraCafeNegro();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "22":
                                                     Console.WriteLine("Precio: $" + infuciones.capuccino());
                                                     infuciones.compraCapuccino();
-                                                    Console.WriteLine();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "23":
                                                     Console.WriteLine("Fin de las consultas");
@@ -284,54 +283,67 @@ namespace practica3SilverWorld
                                                 case "1":
                                                     Console.WriteLine("Precio: $" + licua.tropical());
                                                     licua.compraTropical();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "2":
                                                     Console.WriteLine("Precio: $" + licua.invernal());
                                                     licua.compraInvernal();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "3":
                                                     Console.WriteLine("Precio: $" + licua.clasico());
                                                     licua.compraClasico();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "4":
                                                     Console.WriteLine("Precio: $" + licua.chocomilkClasico());
                                                     licua.compraChocomilkClasico();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "5":
                                                     Console.WriteLine("Precio: $" + licua.completo());
                                                     licua.compraCompleto();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "6":
                                                     Console.WriteLine("Precio: $" + infuciones.teBlanco());
                                                     infuciones.compraTeBlanco();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "7":
                                                     Console.WriteLine("Precio: $" + infuciones.teRojo());
                                                     infuciones.compraTeRojo();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "8":
                                                     Console.WriteLine("Precio: $" + infuciones.teNegroFresa());
                                                     infuciones.compraTeNegroFresa();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "9":
                                                     Console.WriteLine("Precio: $" + infuciones.manzanilla());
                                                     infuciones.compraManzanilla();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "10":
                                                     Console.WriteLine("Precio: $" + infuciones.matchaLatte());
                                                     infuciones.compraMatchaLatte();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "11":
                                                     Console.WriteLine("Precio: $" + infuciones.chocolateCaliente());
                                                     infuciones.compraChocolateCaliente();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "12":
                                                     Console.WriteLine("Precio: $" + infuciones.cafeNegro());
                                                     infuciones.compraCafeNegro();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "13":
                                                     Console.WriteLine("Precio: $" + infuciones.capuccino());
                                                     infuciones.compraCapuccino();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "14":
                                                     Console.WriteLine("Fin de las consultas");
@@ -408,6 +420,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionMargarita());
+                                                Console.ReadLine();
                                                 break;
 
                                             case "2":
@@ -415,6 +428,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionMojito());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "3":
@@ -422,6 +436,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionManhattan());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "4":
@@ -429,6 +444,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionPColada());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "5":
@@ -436,6 +452,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionDaiquiri());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "6":
@@ -443,13 +460,15 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionLongIsland());
-                                               
+                                                Console.ReadLine();
+
                                                 break;
                                             case "7":
                                                 Console.WriteLine("Precio: $" + alcohol.bloodyMary());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionBloodyMary());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "8":
@@ -457,6 +476,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionMaiTai());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "9":
@@ -464,6 +484,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionSidecar());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "10":
@@ -471,6 +492,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionTropical());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "11":
@@ -478,6 +500,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionInvernal());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "12":
@@ -485,6 +508,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionClasico());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "13":
@@ -492,6 +516,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionChocomilk());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "14":
@@ -499,6 +524,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionCompleto());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "15":
@@ -506,6 +532,8 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
+                                                Console.ReadLine();
+
 
                                                 break;
                                             case "16":
@@ -513,6 +541,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "17":
@@ -520,6 +549,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "18":
@@ -527,6 +557,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "19":
@@ -534,6 +565,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionMatchaLatte());
+                                                Console.ReadLine();
 
                                                 break;
                                             case "20":
@@ -541,22 +573,27 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionChocolate());
+                                                Console.ReadLine();
+
                                                 break;
                                             case "21":
                                                 Console.WriteLine("Precio: $" + infuciones.cafeNegro());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionCafe());
+                                                Console.ReadLine();
                                                 break;
                                             case "22":
                                                 Console.WriteLine("Precio: $" + infuciones.capuccino());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionCapucccino());
+                                                Console.ReadLine();
                                                 break;
 
                                             case "23":
                                                 Console.WriteLine("Fin de las consultas");
+                                               
                                                 break;
 
                                             default:
@@ -582,6 +619,7 @@ namespace practica3SilverWorld
 
                                 case "4":
                                     Console.WriteLine("Fin de las consultas");
+                                  
                                     break;
                                 default:
                                     Console.WriteLine("No es correcto");
@@ -675,94 +713,115 @@ namespace practica3SilverWorld
                                                 case "1":
                                                     Console.WriteLine("Precio: $" + alcohol.margarita());
                                                     alcohol.compraMargarita();
-
+                                                    Console.ReadLine();
 
                                                     break;
 
                                                 case "2":
                                                     Console.WriteLine("Precio: $" + alcohol.mojito());
                                                     alcohol.compraMojito();
+                                                    Console.ReadLine();
 
                                                     break;
                                                 case "3":
                                                     Console.WriteLine("Precio: $" + alcohol.manhattan());
                                                     alcohol.compraManhattan();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "4":
                                                     Console.WriteLine("Precio: $" + alcohol.pColada());
                                                     alcohol.compraPColada();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "5":
                                                     Console.WriteLine("Precio: $" + alcohol.daiquiri());
                                                     alcohol.compraDaiquiri();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "6":
                                                     Console.WriteLine("Precio: $" + alcohol.longIsland());
                                                     alcohol.compraLongIsland();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "7":
                                                     Console.WriteLine("Precio: $" + alcohol.bloodyMary());
                                                     alcohol.compraBloodyMary();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "8":
                                                     Console.WriteLine("Precio: $" + alcohol.maiTai());
                                                     alcohol.compraMaiTai();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "9":
                                                     Console.WriteLine("Precio: $" + alcohol.sidecar());
                                                     alcohol.compraSidecar();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "10":
                                                     Console.WriteLine("Precio: $" + licua.tropical());
                                                     licua.compraTropical();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "11":
                                                     Console.WriteLine("Precio: $" + licua.invernal());
                                                     licua.compraInvernal();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "12":
                                                     Console.WriteLine("Precio: $" + licua.clasico());
                                                     licua.compraClasico();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "13":
                                                     Console.WriteLine("Precio: $" + licua.chocomilkClasico());
                                                     licua.compraChocomilkClasico();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "14":
                                                     Console.WriteLine("Precio: $" + licua.completo());
                                                     licua.compraCompleto();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "15":
                                                     Console.WriteLine("Precio: $" + infuciones.teBlanco());
                                                     infuciones.compraTeBlanco();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "16":
                                                     Console.WriteLine("Precio: $" + infuciones.teRojo());
                                                     infuciones.compraTeRojo();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "17":
                                                     Console.WriteLine("Precio: $" + infuciones.teNegroFresa());
                                                     infuciones.compraTeNegroFresa();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "18":
                                                     Console.WriteLine("Precio: $" + infuciones.manzanilla());
                                                     infuciones.compraManzanilla();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "19":
                                                     Console.WriteLine("Precio: $" + infuciones.matchaLatte());
                                                     infuciones.compraMatchaLatte();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "20":
                                                     Console.WriteLine("Precio: $" + infuciones.chocolateCaliente());
                                                     infuciones.compraChocolateCaliente();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "21":
                                                     Console.WriteLine("Precio: $" + infuciones.cafeNegro());
                                                     infuciones.compraCafeNegro();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "22":
                                                     Console.WriteLine("Precio: $" + infuciones.capuccino());
                                                     infuciones.compraCapuccino();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "23":
                                                     Console.WriteLine("Fin de las consultas");
@@ -820,54 +879,67 @@ namespace practica3SilverWorld
                                                 case "1":
                                                     Console.WriteLine("Precio: $" + licua.tropical());
                                                     licua.compraTropical();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "2":
                                                     Console.WriteLine("Precio: $" + licua.invernal());
                                                     licua.compraInvernal();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "3":
                                                     Console.WriteLine("Precio: $" + licua.clasico());
                                                     licua.compraClasico();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "4":
                                                     Console.WriteLine("Precio: $" + licua.chocomilkClasico());
                                                     licua.compraChocomilkClasico();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "5":
                                                     Console.WriteLine("Precio: $" + licua.completo());
                                                     licua.compraCompleto();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "6":
                                                     Console.WriteLine("Precio: $" + infuciones.teBlanco());
                                                     infuciones.compraTeBlanco();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "7":
                                                     Console.WriteLine("Precio: $" + infuciones.teRojo());
                                                     infuciones.compraTeRojo();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "8":
                                                     Console.WriteLine("Precio: $" + infuciones.teNegroFresa());
                                                     infuciones.compraTeNegroFresa();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "9":
                                                     Console.WriteLine("Precio: $" + infuciones.manzanilla());
                                                     infuciones.compraManzanilla();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "10":
                                                     Console.WriteLine("Precio: $" + infuciones.matchaLatte());
                                                     infuciones.compraMatchaLatte();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "11":
                                                     Console.WriteLine("Precio: $" + infuciones.chocolateCaliente());
                                                     infuciones.compraChocolateCaliente();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "12":
                                                     Console.WriteLine("Precio: $" + infuciones.cafeNegro());
                                                     infuciones.compraCafeNegro();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "13":
                                                     Console.WriteLine("Precio: $" + infuciones.capuccino());
                                                     infuciones.compraCapuccino();
+                                                    Console.ReadLine();
                                                     break;
                                                 case "14":
                                                     Console.WriteLine("Fin de las consultas");
@@ -944,6 +1016,7 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionMargarita());
+                                                Console.ReadLine();
                                                 break;
 
                                             case "2":
@@ -951,144 +1024,147 @@ namespace practica3SilverWorld
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionMojito());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "3":
                                                 Console.WriteLine("Precio: $" + alcohol.manhattan());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionManhattan());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "4":
                                                 Console.WriteLine("Precio: $" + alcohol.pColada());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionPColada());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "5":
                                                 Console.WriteLine("Precio: $" + alcohol.daiquiri());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionDaiquiri());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "6":
                                                 Console.WriteLine("Precio: $" + alcohol.longIsland());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionLongIsland());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "7":
                                                 Console.WriteLine("Precio: $" + alcohol.bloodyMary());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionBloodyMary());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "8":
                                                 Console.WriteLine("Precio: $" + alcohol.maiTai());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionMaiTai());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "9":
                                                 Console.WriteLine("Precio: $" + alcohol.sidecar());
                                                 Console.WriteLine(alcohol.categoria());
                                                 Console.WriteLine(alcohol.tipo());
                                                 Console.WriteLine(alcohol.preparacionSidecar());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "10":
                                                 Console.WriteLine("Precio: $" + licua.tropical());
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionTropical());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "11":
                                                 Console.WriteLine("Precio: $" + licua.invernal());
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionInvernal());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "12":
                                                 Console.WriteLine("Precio: $" + licua.clasico());
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionClasico());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "13":
                                                 Console.WriteLine("Precio: $" + licua.chocomilkClasico());
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionChocomilk());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "14":
                                                 Console.WriteLine("Precio: $" + licua.completo());
                                                 Console.WriteLine(licua.categoria());
                                                 Console.WriteLine(licua.tipo());
                                                 Console.WriteLine(licua.preparacionCompleto());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "15":
                                                 Console.WriteLine("Precio: $" + infuciones.teBlanco());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "16":
                                                 Console.WriteLine("Precio: $" + infuciones.teRojo());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "17":
                                                 Console.WriteLine("Precio: $" + infuciones.teNegroFresa());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "18":
                                                 Console.WriteLine("Precio: $" + infuciones.manzanilla());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionTe());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "19":
                                                 Console.WriteLine("Precio: $" + infuciones.matchaLatte());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionMatchaLatte());
-
+                                                Console.ReadLine();
                                                 break;
                                             case "20":
                                                 Console.WriteLine("Precio: $" + infuciones.chocolateCaliente());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionChocolate());
+                                                Console.ReadLine();
                                                 break;
                                             case "21":
                                                 Console.WriteLine("Precio: $" + infuciones.cafeNegro());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionCafe());
+                                                Console.ReadLine();
                                                 break;
                                             case "22":
                                                 Console.WriteLine("Precio: $" + infuciones.capuccino());
                                                 Console.WriteLine(infuciones.categoria());
                                                 Console.WriteLine(infuciones.tipo());
                                                 Console.WriteLine(infuciones.preparacionCapucccino());
+                                                Console.ReadLine();
                                                 break;
 
                                             case "23":
