@@ -105,7 +105,7 @@ namespace practica3SilverWorld
 
         public int Codigo1 { get => codigo1; set => codigo1 = value; }
         public int Codigo2 { get => codigo2; set => codigo2 = value; }
-        //public int DUI { get => DUI; set => DUI = value; }
+   
 
 
 

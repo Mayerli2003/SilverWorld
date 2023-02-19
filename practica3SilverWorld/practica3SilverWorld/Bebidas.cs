@@ -22,6 +22,7 @@ namespace practica3SilverWorld
         double descuento;
         double respuesta;
         double pagar;
+        double total;
         string id;
         int Codigo1 = 5678;
         int Codigo2 = 2345;
@@ -89,6 +90,7 @@ namespace practica3SilverWorld
         }
         public void compraMargarita()
         {
+
             Console.WriteLine("Cuenta con codigo de descuento");
             do
             {
@@ -100,68 +102,63 @@ namespace practica3SilverWorld
                 switch (id)
                 {
                     case "1":
-                        Console.WriteLine("Ingrese la cantidad de dinero con la que pagara");
-                        pagar = int.Parse(Console.ReadLine()) - margarita();
 
-                        if (pagar < 0)
+                        Console.WriteLine("Ingrese la cantidad de dinero con la que pagara:");
+                        pagar = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese el codigo:");
+                        descuento = double.Parse(Console.ReadLine());
+
+                        if (descuento == Codigo1)
                         {
-                            Console.WriteLine("Debe  $" + pagar + " para pagar su bebida");
+                            
+                            
+                            total = pagar - margarita() * 0.50;
+                            
+                            if (total < 0)
+                            {
+                                Console.WriteLine("Debe  $" + total + " para pagar su bebida");
+                            }
+                            if (total >= 0)
+                            {
+                                Console.WriteLine("Su saldo es de  $" + total);
+                            }
+
                         }
-                        if (pagar >= 0)
+                        if(descuento == Codigo2)
                         {
-                            Console.WriteLine("Su saldo es de  $" + pagar);
+                            respuesta = margarita() * 0.20;
+                            
+                            total = pagar - respuesta;
+                            if (total < 0)
+                            {
+                                Console.WriteLine("Debe  $" + total + " para pagar su bebida");
+                            }
+                            if (pagar >= 0)
+                            {
+                                Console.WriteLine("Su saldo es de  $" + total);
+                            }
+
                         }
-                        //Console.WriteLine("Ingrese el codigo");
-                        //descuento = Double.Parse(Console.ReadLine());
-                        //if (descuento == Codigo1)
-                        ////{
-                        //    Console.WriteLine("Ingrese la cantidad de dinero con la que pagara");
-                        //    pagar = int.Parse(Console.ReadLine()) - margarita()*0.20;
-                        //    respuesta = margarita()*0.20;
-                        //    if (pagar < 0)
-                        //    {
 
-                        //        Console.WriteLine("Debe  $" + pagar + " para pagar su bebida de un total de "+ respuesta+" con el 20% de descuento");
-                        //    }
-                        //    if (pagar >= 0)
-                        //    {
-                        //        Console.WriteLine("Su saldo es de  $" + pagar);
-                        //    }
-
-                        ////}
-                        //if (descuento == Codigo2)
-                        //{
-                        //    Console.WriteLine("Ingrese la cantidad de dinero con la que pagara");
-                        //    pagar = int.Parse(Console.ReadLine()) - margarita() * 0.50;
-                        //    respuesta = margarita() * 0.50;
-                        //    if (pagar < 0)
-                        //    {
-
-                        //        Console.WriteLine("Debe  $" + pagar + " para pagar su bebida de un total de " + respuesta + " con el 50% de descuento");
-                        //    }
-                        //    if (pagar >= 0)
-                        //    {
-                        //        Console.WriteLine("Su saldo es de  $" + pagar);
-                        //    }
-                        //}
-                        //else
-                        //{
-                        //    Console.WriteLine("El codigo no es correcto");
-                        //}
+                        
+                       
 
                         break;
                     case "2":
-                        Console.WriteLine("Ingrese la cantidad de dinero con la que pagara");
-                        pagar = int.Parse(Console.ReadLine()) - margarita();
-
-                        if (pagar < 0)
+                        Console.WriteLine("Ingrese la cantidad de dinero con la que pagara:");
+                        pagar = double.Parse(Console.ReadLine()) ;
+                        total = pagar - margarita();
+                        if (total < 0)
                         {
-                            Console.WriteLine("Debe  $" + pagar + " para pagar su bebida");
+                            Console.WriteLine("Debe  $" + total + " para pagar su bebida");
                         }
-                        if (pagar >= 0)
+                        if (total >= 0)
                         {
-                            Console.WriteLine("Su saldo es de  $" + pagar);
+                            Console.WriteLine("Su saldo es de  $" + total);
                         }
+                        break;
+                    case "3":
+                        Console.WriteLine("Fin de consultas");
                         break;
                     default:
                         Console.ForegroundColor = ConsoleColor.Red;
@@ -174,7 +171,8 @@ namespace practica3SilverWorld
 
             }
             while (id != "3");
-
+            Console.ReadLine();
+           
 
 
         }
@@ -474,17 +472,92 @@ namespace practica3SilverWorld
         }
         public void compraTeBlanco()
         {
-            Console.WriteLine("Ingrese la cantidad de dinero con la que pagara");
-            pagar = int.Parse(Console.ReadLine()) - teBlanco();
+            string id;
+            double descuento;
+            double total;
+            double respuesta;
+            int Codigo1 = 5678;
+            int Codigo2 = 2345;
+            Console.WriteLine("Cuenta con codigo de descuento");
+            do
+            {
+                Console.WriteLine("1.Si");
+                Console.WriteLine("2.No");
+                Console.WriteLine("3.Salir");
+                Console.WriteLine("\nIngrese el numero de su consulta");
+                id = Console.ReadLine();
+                switch (id)
+                {
+                    case "1":
 
-            if (pagar < 0)
-            {
-                Console.WriteLine("Debe  $" + pagar + " para pagar su bebida");
+                        Console.WriteLine("Ingrese la cantidad de dinero con la que pagara:");
+                        pagar = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese el codigo:");
+                        descuento = double.Parse(Console.ReadLine());
+
+                        if (descuento == Codigo1)
+                        {
+
+
+                            total = pagar - teBlanco() * 0.50;
+
+                            if (total < 0)
+                            {
+                                Console.WriteLine("Debe  $" + total + " para pagar su bebida");
+                            }
+                            if (total >= 0)
+                            {
+                                Console.WriteLine("Su saldo es de  $" + total);
+                            }
+
+                        }
+                        if (descuento == Codigo2)
+                        {
+                            respuesta = teBlanco() * 0.20;
+                            
+                            total = pagar - respuesta;
+                            if (total < 0)
+                            {
+                                Console.WriteLine("Debe  $" + total + " para pagar su bebida");
+                            }
+                            if (pagar >= 0)
+                            {
+                                Console.WriteLine("Su saldo es de  $" + total);
+                            }
+
+                        }
+
+
+
+
+                        break;
+                    case "2":
+                        Console.WriteLine("Ingrese la cantidad de dinero con la que pagara:");
+                        pagar = double.Parse(Console.ReadLine());
+                        total = pagar - teBlanco();
+                        if (total < 0)
+                        {
+                            Console.WriteLine("Debe  $" + total + " para pagar su bebida");
+                        }
+                        if (total >= 0)
+                        {
+                            Console.WriteLine("Su saldo es de  $" + total);
+                        }
+                        break;
+                    case "3":
+                        Console.WriteLine("Fin de consultas");
+                        break;
+                    default:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("La opcion que ha elegido no es correcta");
+                        Console.ReadKey();
+                        break;
+
+                }
+
             }
-            if (pagar >= 0)
-            {
-                Console.WriteLine("Su saldo es de  $" + pagar);
-            }
+            while (id != "3");
+            Console.ReadLine();
         }
         public double teRojo()
         {
