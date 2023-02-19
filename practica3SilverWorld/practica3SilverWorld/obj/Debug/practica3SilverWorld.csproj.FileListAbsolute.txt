@@ -1,0 +1,8 @@
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\bin\Debug\practica3SilverWorld.exe.config
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\bin\Debug\practica3SilverWorld.exe
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\bin\Debug\practica3SilverWorld.pdb
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\obj\Debug\practica3SilverWorld.csproj.AssemblyReference.cache
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\obj\Debug\practica3SilverWorld.csproj.SuggestedBindingRedirects.cache
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\obj\Debug\practica3SilverWorld.csproj.CoreCompileInputs.cache
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\obj\Debug\practica3SilverWorld.exe
+C:\Users\mmaye\source\repos\practica3SilverWorld\practica3SilverWorld\obj\Debug\practica3SilverWorld.pdb

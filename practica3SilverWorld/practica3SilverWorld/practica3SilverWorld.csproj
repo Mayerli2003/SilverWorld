@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2CA5C76-58C6-4E6D-A68C-BBB65F154754}</ProjectGuid>
+    <ProjectGuid>{E6396912-5C9E-4B51-9AEA-F8AF2A4D4F11}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Bebidas</RootNamespace>
-    <AssemblyName>Bebidas</AssemblyName>
+    <RootNamespace>practica3SilverWorld</RootNamespace>
+    <AssemblyName>practica3SilverWorld</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bebidas.cs" />
+    <Compile Include="Personas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
