@@ -41,7 +41,7 @@ namespace practica3SilverWorld
             Nombre = Console.ReadLine();
             Console.WriteLine("Ingrese su Apellido:");
             Apellido = Console.ReadLine();
-            Console.WriteLine("Ingrese Su edad:");
+            Console.WriteLine("Ingrese su edad:");
             Edad = int.Parse(Console.ReadLine());
             
         }

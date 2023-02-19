@@ -357,6 +357,10 @@ namespace practica3SilverWorld
                 Console.WriteLine("Su saldo es de  $" + pagar);
             }
         }
+        public string preparacionTropical()
+        {
+            return "Preparacion: mezcla de mago y durazno";
+        }
         public double invernal()
         {
             return 2.10;
@@ -374,6 +378,10 @@ namespace practica3SilverWorld
             {
                 Console.WriteLine("Su saldo es de  $" + pagar);
             }
+        }
+        public string preparacionInvernal()
+        {
+            return "Preparacion: mezcla de ciruelas, cerezas, fresa y leche";
         }
         public double clasico()
         {
@@ -393,6 +401,10 @@ namespace practica3SilverWorld
                 Console.WriteLine("Su saldo es de  $" + pagar);
             }
         }
+        public string preparacionClasico()
+        {
+            return "Preparacion: mezcla de banana con fresa y leche";
+        }
         public double chocomilkClasico()
         {
             return 1.50;
@@ -410,6 +422,10 @@ namespace practica3SilverWorld
             {
                 Console.WriteLine("Su saldo es de  $" + pagar);
             }
+        }
+        public string preparacionChocomilk()
+        {
+            return "Preparacion: mezcla de leche con chololate y vainilla";
         }
         public double completo()
         {
@@ -429,6 +445,10 @@ namespace practica3SilverWorld
                 Console.WriteLine("Su saldo es de  $" + pagar);
             }
         }
+        public string preparacionCompleto()
+        {
+            return "Preparacion: mezcla de mago, durazno, fresa y banana";
+        }
     }
     class CalientesInfuciones : bebidas
     {
@@ -439,7 +459,10 @@ namespace practica3SilverWorld
         }
 
 
-
+        public string preparacionTe()
+        {
+            return "Preparacion: mezcla de te y agua caliente";
+        }
         public override string tipo()
         {
             return "Tipo: bebidas calientes e infusiones";
@@ -521,6 +544,10 @@ namespace practica3SilverWorld
         {
             return 2.80;
         }
+        public string preparacionMatchaLatte()
+        {
+            return "Preparacion: mezcla de chocolate y leche caliente";
+        }
         public void compraMatchaLatte()
         {
             Console.WriteLine("Ingrese la cantidad de dinero con la que pagara");
@@ -553,6 +580,10 @@ namespace practica3SilverWorld
                 Console.WriteLine("Su saldo es de  $" + pagar);
             }
         }
+        public string preparacionChocolate()
+        {
+            return "Preparacion: mezcla de chocolate y agua caliente";
+        }
         public double cafeNegro()
         {
             return 2.10;
@@ -570,6 +601,15 @@ namespace practica3SilverWorld
             {
                 Console.WriteLine("Su saldo es de  $" + pagar);
             }
+        }
+        public string preparacionCafe()
+        {
+            return "Preparacion: mezcla de cafe y agua caliente";
+        }
+        
+        public string preparacionCapucccino()
+        {
+            return "Preparacion: mezcla de chocolate, leche y agua caliente";
         }
         public double capuccino()
         {
